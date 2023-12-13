@@ -1,3 +1,4 @@
+console.log("hellow");
 document.addEventListener("DOMContentLoaded", function () {
   const filterInput = document.getElementById("filterInput");
   const listItems = document.querySelectorAll(".list-item");
