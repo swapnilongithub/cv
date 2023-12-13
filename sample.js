@@ -1,2 +1,1 @@
-console.log('Page loaded!');
-alert("hellow world");
+document.getElementById('app').style.color = 'blue';
