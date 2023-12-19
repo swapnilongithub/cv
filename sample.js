@@ -6,6 +6,6 @@ document.addEventListener("DOMContentLoaded", function() {
     var appElement = document.getElementById('app');
 
     // Change the text color to red
-    appElement.style.color = 'red';
+    appElement.style.color = 'green';
 });
 
