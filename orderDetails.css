@@ -1,0 +1,96 @@
+.order-details .order-details-content {
+    background-color: #F2F7FC;
+    padding: 1rem;
+    margin-top: 1rem;
+}
+
+.order-details .order-details-content .roche-ref p {
+    color: #000;
+    font-size: 16px;
+    margin-bottom: unset;
+    margin-top: 5px;
+}
+
+.order-details .order-details-content .roche-ref {
+    margin-top: 1rem;
+}
+
+.order-details .order-details-content .roche-ref span {
+    color: #0000008A;
+    font-size: 14px;
+}
+
+.order-details .order-details-status {
+    display: flex;
+    justify-content: space-between;
+}
+
+.order-details .status-details {
+    width: 68%;
+}
+
+.order-details .main-status {
+    font-size: 14px;
+    margin-left: auto;
+}
+
+.order-details .order-details-status {
+    border-bottom: 1px solid #BABABA;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
+/* status color css start */
+.order-details .partially-delivered {
+    color: #65A7B4;
+}
+
+.order-details .shipped {
+    color: #0066CC;
+}
+
+.order-details .delivered {
+    color: #5A825D;
+}
+
+.order-details .unknown {
+    color: #BABABA;
+}
+
+.order-details .cancelled {
+    color: #CC0033;
+}
+
+/* status color css end */
+
+.order-details .status-details p {
+    color: #333;
+    font-size: 12px;
+    padding-top: unset;
+    padding-bottom: 1rem;
+    margin-top: 5px;
+}
+
+.order-details .status-details span:first-child {
+    font-size: 16px;
+    color: #222;
+}
+
+.order-details .accounts {
+    color: #000;
+    font-size: 16px;
+}
+
+@media only screen and (max-width: 395px) and (min-width: 360px) {
+    .order-details .status-details {
+        width: 62%;
+    }
+}
+
+@media only screen and (max-width: 285px) and (min-width: 278px) {
+    .order-details .order-details-status .status-details {
+        width: 52%;
+    }
+}
